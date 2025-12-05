@@ -500,7 +500,7 @@ Examples:
     parser.add_argument("--weights", type=str, 
                         default="./runs/detect/train3/weights/best.pt",
                         help="Model weights path")
-    parser.add_argument("--conf", type=float, default=0.3,
+    parser.add_argument("--conf", type=float, default=0.01,
                         help="Confidence threshold (default: 0.3)")
     parser.add_argument("--iou", type=float, default=0.45,
                         help="IoU threshold for NMS (default: 0.45)")
